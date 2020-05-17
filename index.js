@@ -4,6 +4,7 @@ const app = express();
 
 
 app.use('/', (req, res, next) => {
+    let i = 0 ;
     res.send('ici on est en guerre ');
 });
 
